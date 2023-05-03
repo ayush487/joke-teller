@@ -35,6 +35,7 @@ async function getJokes() {
     } catch (error) {
         // Catch Errors here
         console.log('whoops', error)
+        tellMe('Something went wrong!, check console for a detail info')
     }
 }
 
